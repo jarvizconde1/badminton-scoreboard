@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63456FF52B3D279300E46341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63456FF42B3D279300E46341 /* AppDelegate.swift */; };
+		63456FF72B3D279300E46341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63456FF62B3D279300E46341 /* SceneDelegate.swift */; };
+		63456FF92B3D279300E46341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63456FF82B3D279300E46341 /* ViewController.swift */; };
+		63456FFC2B3D279300E46341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63456FFA2B3D279300E46341 /* Main.storyboard */; };
+		63456FFE2B3D279400E46341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63456FFD2B3D279400E46341 /* Assets.xcassets */; };
+		634570012B3D279400E46341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63456FFF2B3D279400E46341 /* LaunchScreen.storyboard */; };
+		6345700C2B3D279400E46341 /* badminton_scoreboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345700B2B3D279400E46341 /* badminton_scoreboardTests.swift */; };
+		634570162B3D279400E46341 /* badminton_scoreboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634570152B3D279400E46341 /* badminton_scoreboardUITests.swift */; };
+		634570182B3D279400E46341 /* badminton_scoreboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634570172B3D279400E46341 /* badminton_scoreboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634570082B3D279400E46341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63456FE92B3D279300E46341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63456FF02B3D279300E46341;
+			remoteInfo = "badminton scoreboard";
+		};
+		634570122B3D279400E46341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63456FE92B3D279300E46341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63456FF02B3D279300E46341;
+			remoteInfo = "badminton scoreboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63456FF12B3D279300E46341 /* badminton scoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "badminton scoreboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63456FF42B3D279300E46341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63456FF62B3D279300E46341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63456FF82B3D279300E46341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63456FFB2B3D279300E46341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63456FFD2B3D279400E46341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		634570002B3D279400E46341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		634570022B3D279400E46341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634570072B3D279400E46341 /* badminton scoreboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "badminton scoreboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6345700B2B3D279400E46341 /* badminton_scoreboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badminton_scoreboardTests.swift; sourceTree = "<group>"; };
+		634570112B3D279400E46341 /* badminton scoreboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "badminton scoreboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634570152B3D279400E46341 /* badminton_scoreboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badminton_scoreboardUITests.swift; sourceTree = "<group>"; };
+		634570172B3D279400E46341 /* badminton_scoreboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badminton_scoreboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63456FEE2B3D279300E46341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634570042B3D279400E46341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345700E2B3D279400E46341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63456FE82B3D279300E46341 = {
+			isa = PBXGroup;
+			children = (
+				63456FF32B3D279300E46341 /* badminton scoreboard */,
+				6345700A2B3D279400E46341 /* badminton scoreboardTests */,
+				634570142B3D279400E46341 /* badminton scoreboardUITests */,
+				63456FF22B3D279300E46341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63456FF22B3D279300E46341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63456FF12B3D279300E46341 /* badminton scoreboard.app */,
+				634570072B3D279400E46341 /* badminton scoreboardTests.xctest */,
+				634570112B3D279400E46341 /* badminton scoreboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63456FF32B3D279300E46341 /* badminton scoreboard */ = {
+			isa = PBXGroup;
+			children = (
+				63456FF42B3D279300E46341 /* AppDelegate.swift */,
+				63456FF62B3D279300E46341 /* SceneDelegate.swift */,
+				63456FF82B3D279300E46341 /* ViewController.swift */,
+				63456FFA2B3D279300E46341 /* Main.storyboard */,
+				63456FFD2B3D279400E46341 /* Assets.xcassets */,
+				63456FFF2B3D279400E46341 /* LaunchScreen.storyboard */,
+				634570022B3D279400E46341 /* Info.plist */,
+			);
+			path = "badminton scoreboard";
+			sourceTree = "<group>";
+		};
+		6345700A2B3D279400E46341 /* badminton scoreboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6345700B2B3D279400E46341 /* badminton_scoreboardTests.swift */,
+			);
+			path = "badminton scoreboardTests";
+			sourceTree = "<group>";
+		};
+		634570142B3D279400E46341 /* badminton scoreboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				634570152B3D279400E46341 /* badminton_scoreboardUITests.swift */,
+				634570172B3D279400E46341 /* badminton_scoreboardUITestsLaunchTests.swift */,
+			);
+			path = "badminton scoreboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63456FF02B3D279300E46341 /* badminton scoreboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6345701B2B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboard" */;
+			buildPhases = (
+				63456FED2B3D279300E46341 /* Sources */,
+				63456FEE2B3D279300E46341 /* Frameworks */,
+				63456FEF2B3D279300E46341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "badminton scoreboard";
+			productName = "badminton scoreboard";
+			productReference = 63456FF12B3D279300E46341 /* badminton scoreboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		634570062B3D279400E46341 /* badminton scoreboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6345701E2B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboardTests" */;
+			buildPhases = (
+				634570032B3D279400E46341 /* Sources */,
+				634570042B3D279400E46341 /* Frameworks */,
+				634570052B3D279400E46341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634570092B3D279400E46341 /* PBXTargetDependency */,
+			);
+			name = "badminton scoreboardTests";
+			productName = "badminton scoreboardTests";
+			productReference = 634570072B3D279400E46341 /* badminton scoreboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		634570102B3D279400E46341 /* badminton scoreboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634570212B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboardUITests" */;
+			buildPhases = (
+				6345700D2B3D279400E46341 /* Sources */,
+				6345700E2B3D279400E46341 /* Frameworks */,
+				6345700F2B3D279400E46341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634570132B3D279400E46341 /* PBXTargetDependency */,
+			);
+			name = "badminton scoreboardUITests";
+			productName = "badminton scoreboardUITests";
+			productReference = 634570112B3D279400E46341 /* badminton scoreboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63456FE92B3D279300E46341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					63456FF02B3D279300E46341 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					634570062B3D279400E46341 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 63456FF02B3D279300E46341;
+					};
+					634570102B3D279400E46341 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 63456FF02B3D279300E46341;
+					};
+				};
+			};
+			buildConfigurationList = 63456FEC2B3D279300E46341 /* Build configuration list for PBXProject "badminton scoreboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63456FE82B3D279300E46341;
+			productRefGroup = 63456FF22B3D279300E46341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63456FF02B3D279300E46341 /* badminton scoreboard */,
+				634570062B3D279400E46341 /* badminton scoreboardTests */,
+				634570102B3D279400E46341 /* badminton scoreboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63456FEF2B3D279300E46341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634570012B3D279400E46341 /* LaunchScreen.storyboard in Resources */,
+				63456FFE2B3D279400E46341 /* Assets.xcassets in Resources */,
+				63456FFC2B3D279300E46341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634570052B3D279400E46341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345700F2B3D279400E46341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63456FED2B3D279300E46341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63456FF92B3D279300E46341 /* ViewController.swift in Sources */,
+				63456FF52B3D279300E46341 /* AppDelegate.swift in Sources */,
+				63456FF72B3D279300E46341 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634570032B3D279400E46341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6345700C2B3D279400E46341 /* badminton_scoreboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345700D2B3D279400E46341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634570162B3D279400E46341 /* badminton_scoreboardUITests.swift in Sources */,
+				634570182B3D279400E46341 /* badminton_scoreboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		634570092B3D279400E46341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63456FF02B3D279300E46341 /* badminton scoreboard */;
+			targetProxy = 634570082B3D279400E46341 /* PBXContainerItemProxy */;
+		};
+		634570132B3D279400E46341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63456FF02B3D279300E46341 /* badminton scoreboard */;
+			targetProxy = 634570122B3D279400E46341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63456FFA2B3D279300E46341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63456FFB2B3D279300E46341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63456FFF2B3D279400E46341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634570002B3D279400E46341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		634570192B3D279400E46341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6345701A2B3D279400E46341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6345701C2B3D279400E46341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RN7MMGBVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "badminton scoreboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jarvis.badminton-scoreboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6345701D2B3D279400E46341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RN7MMGBVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "badminton scoreboard/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jarvis.badminton-scoreboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6345701F2B3D279400E46341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RN7MMGBVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jarvis.badminton-scoreboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/badminton scoreboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/badminton scoreboard";
+			};
+			name = Debug;
+		};
+		634570202B3D279400E46341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RN7MMGBVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jarvis.badminton-scoreboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/badminton scoreboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/badminton scoreboard";
+			};
+			name = Release;
+		};
+		634570222B3D279400E46341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RN7MMGBVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jarvis.badminton-scoreboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "badminton scoreboard";
+			};
+			name = Debug;
+		};
+		634570232B3D279400E46341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RN7MMGBVG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jarvis.badminton-scoreboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "badminton scoreboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63456FEC2B3D279300E46341 /* Build configuration list for PBXProject "badminton scoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634570192B3D279400E46341 /* Debug */,
+				6345701A2B3D279400E46341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6345701B2B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345701C2B3D279400E46341 /* Debug */,
+				6345701D2B3D279400E46341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6345701E2B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345701F2B3D279400E46341 /* Debug */,
+				634570202B3D279400E46341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634570212B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634570222B3D279400E46341 /* Debug */,
+				634570232B3D279400E46341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63456FE92B3D279300E46341 /* Project object */;
+}
