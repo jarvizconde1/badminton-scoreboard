@@ -2,7 +2,8 @@
 
 <p align="center">
   <p align="center">
-    <img src="https://github.com/jarvizconde1/Kahit-Saan/assets/102355807/c0bb7be0-9d32-47d1-9ec9-bf630e9e0618" width="100" height="100">
+    <img src="https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/1812a615-2ac4-43d9-9320-83be83fbbfc8" width="100" height="100">
+
 
   </p>
   <p align="center">
@@ -27,22 +28,27 @@
 
 
 ## About
-                                 
-Tired of your friends telling "Kahit Saan" if you ask them where to eat?  This app provides a list of the nearby restaurant and café based on your location so you won’t have decision fatigue.
+
+Effortless scoring, instant undos, and a shake to reset! This badminton scoreboard app takes the stress out of keeping track of the game.
+
+Simple as Swipe:
+
+Swipe up to award a point.
+Swipe down to undo a mistake.
+Shake your device anytime to start fresh with a new game.
 
 ## Built With
 * SWIFT
 * Storyboards
-* UIKit 
-* Google Places
-* CoreLocation 
+* MVVM
+* UISwipeGestureRecognizer
 * Cocoapods
 
 
 ## CocoaPods Used
-* [GooglePlaces][1]
+* [SAConfettiView][1]
 
-[1]: https://cocoapods.org/pods/GooglePlaces
+[1]: [https://cocoapods.org/pods/GooglePlaces](https://cocoapods.org/pods/SAConfettiView)
 
 
 
