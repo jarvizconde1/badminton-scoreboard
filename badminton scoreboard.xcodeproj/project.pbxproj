@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AD2137D20EA3C6CBEB9F3D3 /* Pods_badminton_scoreboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5064CD82035AFC828A6AC2 /* Pods_badminton_scoreboard.framework */; };
+		63149D6C2B8734430098630D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63149D6B2B8734430098630D /* AboutViewController.swift */; };
 		63456FF52B3D279300E46341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63456FF42B3D279300E46341 /* AppDelegate.swift */; };
 		63456FF72B3D279300E46341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63456FF62B3D279300E46341 /* SceneDelegate.swift */; };
 		63456FF92B3D279300E46341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63456FF82B3D279300E46341 /* ViewController.swift */; };
@@ -16,6 +18,11 @@
 		6345700C2B3D279400E46341 /* badminton_scoreboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345700B2B3D279400E46341 /* badminton_scoreboardTests.swift */; };
 		634570162B3D279400E46341 /* badminton_scoreboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634570152B3D279400E46341 /* badminton_scoreboardUITests.swift */; };
 		634570182B3D279400E46341 /* badminton_scoreboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634570172B3D279400E46341 /* badminton_scoreboardUITestsLaunchTests.swift */; };
+		634E0EA52B80C95B00B0C1AE /* WinnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E0EA42B80C95B00B0C1AE /* WinnerController.swift */; };
+		634F81E22B84BD160023E7F3 /* GameProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F81E12B84BD160023E7F3 /* GameProperties.swift */; };
+		63F2E2822B884F56008EE4E8 /* GameMechanicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F2E2812B884F56008EE4E8 /* GameMechanicsViewModel.swift */; };
+		71053436BDDF5C1F2839C0E2 /* Pods_badminton_scoreboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BB17528241DC3329820C19 /* Pods_badminton_scoreboardTests.framework */; };
+		8CA891CF204E9335E3D0DBF1 /* Pods_badminton_scoreboard_badminton_scoreboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E689E51A22519FEF6B42A60 /* Pods_badminton_scoreboard_badminton_scoreboardUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CBB9AC32279CE294A7E44CF /* Pods-badminton scoreboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badminton scoreboard.release.xcconfig"; path = "Target Support Files/Pods-badminton scoreboard/Pods-badminton scoreboard.release.xcconfig"; sourceTree = "<group>"; };
+		23419785AE92AAE8B47664FE /* Pods-badminton scoreboard-badminton scoreboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badminton scoreboard-badminton scoreboardUITests.release.xcconfig"; path = "Target Support Files/Pods-badminton scoreboard-badminton scoreboardUITests/Pods-badminton scoreboard-badminton scoreboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39BB17528241DC3329820C19 /* Pods_badminton_scoreboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_badminton_scoreboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5850B12AA58D260BB0BC44D6 /* Pods-badminton scoreboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badminton scoreboard.debug.xcconfig"; path = "Target Support Files/Pods-badminton scoreboard/Pods-badminton scoreboard.debug.xcconfig"; sourceTree = "<group>"; };
+		58E96FED1C8884F3134DA7A9 /* Pods-badminton scoreboard-badminton scoreboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badminton scoreboard-badminton scoreboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-badminton scoreboard-badminton scoreboardUITests/Pods-badminton scoreboard-badminton scoreboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63149D6B2B8734430098630D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		63456FF12B3D279300E46341 /* badminton scoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "badminton scoreboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63456FF42B3D279300E46341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63456FF62B3D279300E46341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,13 @@
 		634570112B3D279400E46341 /* badminton scoreboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "badminton scoreboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		634570152B3D279400E46341 /* badminton_scoreboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badminton_scoreboardUITests.swift; sourceTree = "<group>"; };
 		634570172B3D279400E46341 /* badminton_scoreboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badminton_scoreboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		634E0EA42B80C95B00B0C1AE /* WinnerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerController.swift; sourceTree = "<group>"; };
+		634F81E12B84BD160023E7F3 /* GameProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProperties.swift; sourceTree = "<group>"; };
+		63F2E2812B884F56008EE4E8 /* GameMechanicsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMechanicsViewModel.swift; sourceTree = "<group>"; };
+		8F5064CD82035AFC828A6AC2 /* Pods_badminton_scoreboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_badminton_scoreboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E689E51A22519FEF6B42A60 /* Pods_badminton_scoreboard_badminton_scoreboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_badminton_scoreboard_badminton_scoreboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B975955973B896F5A5765127 /* Pods-badminton scoreboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badminton scoreboardTests.debug.xcconfig"; path = "Target Support Files/Pods-badminton scoreboardTests/Pods-badminton scoreboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB682D892F7F628F0F19E3E /* Pods-badminton scoreboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badminton scoreboardTests.release.xcconfig"; path = "Target Support Files/Pods-badminton scoreboardTests/Pods-badminton scoreboardTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD2137D20EA3C6CBEB9F3D3 /* Pods_badminton_scoreboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71053436BDDF5C1F2839C0E2 /* Pods_badminton_scoreboardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA891CF204E9335E3D0DBF1 /* Pods_badminton_scoreboard_badminton_scoreboardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0270DE0EB7C671460D09CB5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5850B12AA58D260BB0BC44D6 /* Pods-badminton scoreboard.debug.xcconfig */,
+				0CBB9AC32279CE294A7E44CF /* Pods-badminton scoreboard.release.xcconfig */,
+				58E96FED1C8884F3134DA7A9 /* Pods-badminton scoreboard-badminton scoreboardUITests.debug.xcconfig */,
+				23419785AE92AAE8B47664FE /* Pods-badminton scoreboard-badminton scoreboardUITests.release.xcconfig */,
+				B975955973B896F5A5765127 /* Pods-badminton scoreboardTests.debug.xcconfig */,
+				FCB682D892F7F628F0F19E3E /* Pods-badminton scoreboardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BCF4DE8B6AC2B7149E72F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F5064CD82035AFC828A6AC2 /* Pods_badminton_scoreboard.framework */,
+				9E689E51A22519FEF6B42A60 /* Pods_badminton_scoreboard_badminton_scoreboardUITests.framework */,
+				39BB17528241DC3329820C19 /* Pods_badminton_scoreboardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63456FE82B3D279300E46341 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				6345700A2B3D279400E46341 /* badminton scoreboardTests */,
 				634570142B3D279400E46341 /* badminton scoreboardUITests */,
 				63456FF22B3D279300E46341 /* Products */,
+				0270DE0EB7C671460D09CB5B /* Pods */,
+				5BCF4DE8B6AC2B7149E72F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +149,10 @@
 			children = (
 				63456FF42B3D279300E46341 /* AppDelegate.swift */,
 				63456FF62B3D279300E46341 /* SceneDelegate.swift */,
-				63456FF82B3D279300E46341 /* ViewController.swift */,
-				63456FFA2B3D279300E46341 /* Main.storyboard */,
+				634F81E32B84BD1D0023E7F3 /* Model */,
+				6388FE402B4939E800457871 /* ViewModel */,
+				6388FE3F2B4939DA00457871 /* View */,
 				63456FFD2B3D279400E46341 /* Assets.xcassets */,
-				63456FFF2B3D279400E46341 /* LaunchScreen.storyboard */,
 				634570022B3D279400E46341 /* Info.plist */,
 			);
 			path = "badminton scoreboard";
@@ -127,6 +175,42 @@
 			path = "badminton scoreboardUITests";
 			sourceTree = "<group>";
 		};
+		634F81E32B84BD1D0023E7F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				634F81E12B84BD160023E7F3 /* GameProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6388FE3F2B4939DA00457871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63456FFA2B3D279300E46341 /* Main.storyboard */,
+				63456FFF2B3D279400E46341 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6388FE402B4939E800457871 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				63F2E2802B884F13008EE4E8 /* Controller */,
+				63F2E2812B884F56008EE4E8 /* GameMechanicsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		63F2E2802B884F13008EE4E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63456FF82B3D279300E46341 /* ViewController.swift */,
+				634E0EA42B80C95B00B0C1AE /* WinnerController.swift */,
+				63149D6B2B8734430098630D /* AboutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6345701B2B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboard" */;
 			buildPhases = (
+				883331244E3DAB689877D413 /* [CP] Check Pods Manifest.lock */,
 				63456FED2B3D279300E46341 /* Sources */,
 				63456FEE2B3D279300E46341 /* Frameworks */,
 				63456FEF2B3D279300E46341 /* Resources */,
+				2266AF96D0ABFA6BF1D8B919 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6345701E2B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboardTests" */;
 			buildPhases = (
+				782501D93D37E0C395605359 /* [CP] Check Pods Manifest.lock */,
 				634570032B3D279400E46341 /* Sources */,
 				634570042B3D279400E46341 /* Frameworks */,
 				634570052B3D279400E46341 /* Resources */,
@@ -169,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 634570212B3D279400E46341 /* Build configuration list for PBXNativeTarget "badminton scoreboardUITests" */;
 			buildPhases = (
+				3A86C5504C6B5B4591612C24 /* [CP] Check Pods Manifest.lock */,
 				6345700D2B3D279400E46341 /* Sources */,
 				6345700E2B3D279400E46341 /* Frameworks */,
 				6345700F2B3D279400E46341 /* Resources */,
+				A5ADC250BCB51BA992C8C2BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +342,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2266AF96D0ABFA6BF1D8B919 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-badminton scoreboard/Pods-badminton scoreboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-badminton scoreboard/Pods-badminton scoreboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-badminton scoreboard/Pods-badminton scoreboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A86C5504C6B5B4591612C24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-badminton scoreboard-badminton scoreboardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		782501D93D37E0C395605359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-badminton scoreboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883331244E3DAB689877D413 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-badminton scoreboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5ADC250BCB51BA992C8C2BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-badminton scoreboard-badminton scoreboardUITests/Pods-badminton scoreboard-badminton scoreboardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-badminton scoreboard-badminton scoreboardUITests/Pods-badminton scoreboard-badminton scoreboardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-badminton scoreboard-badminton scoreboardUITests/Pods-badminton scoreboard-badminton scoreboardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63456FED2B3D279300E46341 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F2E2822B884F56008EE4E8 /* GameMechanicsViewModel.swift in Sources */,
+				63149D6C2B8734430098630D /* AboutViewController.swift in Sources */,
+				634E0EA52B80C95B00B0C1AE /* WinnerController.swift in Sources */,
 				63456FF92B3D279300E46341 /* ViewController.swift in Sources */,
 				63456FF52B3D279300E46341 /* AppDelegate.swift in Sources */,
+				634F81E22B84BD160023E7F3 /* GameProperties.swift in Sources */,
 				63456FF72B3D279300E46341 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +549,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +612,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +633,7 @@
 		};
 		6345701C2B3D279400E46341 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5850B12AA58D260BB0BC44D6 /* Pods-badminton scoreboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,8 +645,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +662,7 @@
 		};
 		6345701D2B3D279400E46341 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBB9AC32279CE294A7E44CF /* Pods-badminton scoreboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,8 +674,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +691,7 @@
 		};
 		6345701F2B3D279400E46341 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B975955973B896F5A5765127 /* Pods-badminton scoreboardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +712,7 @@
 		};
 		634570202B3D279400E46341 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB682D892F7F628F0F19E3E /* Pods-badminton scoreboardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +733,7 @@
 		};
 		634570222B3D279400E46341 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E96FED1C8884F3134DA7A9 /* Pods-badminton scoreboard-badminton scoreboardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +752,7 @@
 		};
 		634570232B3D279400E46341 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23419785AE92AAE8B47664FE /* Pods-badminton scoreboard-badminton scoreboardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

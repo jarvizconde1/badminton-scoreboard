@@ -1,0 +1,6 @@
+framework module Pods_badminton_scoreboard_badminton_scoreboardUITests {
+  umbrella header "Pods-badminton scoreboard-badminton scoreboardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
