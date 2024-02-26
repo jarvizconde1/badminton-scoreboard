@@ -63,17 +63,8 @@ Shake your device anytime to start fresh with a new game.
 
 
 
-
-
 ## Demo
 
-
-
-https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/6f54eac0-7638-4fad-942e-2261ea971b28
-
-https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/2c1f36b0-5412-413f-81fb-54f5bb6cbbba
-
-
-https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/ff955a92-7f52-4183-a401-6fdeca20ae51
-
-
+<img src="https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/f70d1101-7b8b-44a6-bb88-794b98c64144" width="250"/>
+<img src="https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/19e9ec6f-54b5-4d79-a497-53ceb2273a07" width="250"/>
+<img src="https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/89e6dfb2-e302-4a00-8d13-ddbd0c7fb0e5" width="250"/>
