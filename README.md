@@ -42,6 +42,7 @@ Shake your device anytime to start fresh with a new game.
 * Storyboards
 * MVVM
 * UISwipeGestureRecognizer
+* Shake Gesture
 * Cocoapods
 
 
@@ -54,11 +55,12 @@ Shake your device anytime to start fresh with a new game.
 
 
 ## Screenshots
+![1](https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/e3db68d3-d096-4cfe-b214-73bbd9b0a3f0)
+![3](https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/7463c976-20ca-4fc7-afb8-8d72b10e4bbf)
+![2](https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/9e9434d3-6fc8-4d43-9e26-7bfceb5d8136)
+![5](https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/2892ab43-338c-4ecf-9352-6f16e4c839c2)
+![4](https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/172cfc81-144f-43db-b5ff-fe36bc93e9a1)
 
-
-<img src="https://github.com/jarvizconde1/Kahit-Saan/assets/102355807/19270110-42cc-41ff-94fa-75751143926a" width="250" >
-<img src="https://github.com/jarvizconde1/Kahit-Saan/assets/102355807/296808eb-a71e-4c57-af1e-3d8c17e296c4" width="250" >
-<img src="https://github.com/jarvizconde1/Kahit-Saan/assets/102355807/0bfd2095-9e66-440c-89fc-e806eeb899f6" width="250" >
 
 
 
@@ -67,9 +69,11 @@ Shake your device anytime to start fresh with a new game.
 
 
 
-<img src="https://github.com/jarvizconde1/Kahit-Saan/assets/102355807/4eb751d7-6f28-4d55-b21d-b710b59187cd" width="250"/>
-<img src="https://github.com/jarvizconde1/Kahit-Saan/assets/102355807/b285cfec-c9d6-4297-bad7-1333c1112b3f" width="250"/>
+https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/6f54eac0-7638-4fad-942e-2261ea971b28
+
+https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/2c1f36b0-5412-413f-81fb-54f5bb6cbbba
 
 
+https://github.com/jarvizconde1/badminton-scoreboard/assets/102355807/ff955a92-7f52-4183-a401-6fdeca20ae51
 
 
